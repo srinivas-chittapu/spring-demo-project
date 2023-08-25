@@ -1,0 +1,4 @@
+CREATE PROCEDURE get_employee_count(OUT count INT)
+BEGIN
+    SELECT COUNT(*) INTO count FROM employee;
+END;
